@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import { Routes, Route } from "react-router-dom"
 import MovieDetail from "./pages/MovieDetail";
+import About from "./pages/About";
+import Watchlist from "./pages/Watchlist";
 
 
 
@@ -27,6 +29,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home searchTrigger={searchTrigger}/>} />
         <Route path="/movie/:id" element={<MovieDetail/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/watchlist" element={<Watchlist/>}/>
       </Routes>
       
     </div>

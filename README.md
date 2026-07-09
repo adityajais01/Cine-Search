@@ -1,16 +1,35 @@
-# React + Vite
+# 🎬 CineSearch - Modern Movie Exploration Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineSearch is a sleek, modern movie exploration platform designed to allow users to instantly search for any movie worldwide, along with its details, ratings, and cast information.
 
-Currently, two official plugins are available:
+This platform delivers a seamless user experience wrapped in a clean, professional, and modern UI featuring glassmorphic designs and fluid responsiveness.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Global Search:** Instant searching using the reliable OMDb API.
+- **Fluid Responsiveness:** Tailored adaptive layouts (`flex-col` to `md:flex-row`) that scale smoothly across mobile, tablet, and desktop screens without breaking.
+- **Glassmorphic Design:** A premium user interface leveraging custom translucent backgrounds, heavy blurs (`backdrop-blur-md`), and glowing drop-shadows.
+- **Multi-Page Navigation:** Implemented dynamic, clean client-side routing using `react-router-dom` (Home, About, and Watchlist pages).
+- **Security Focused:** Environment variables (`.env`) implemented to keep crucial API keys secure and out of public source control.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React.js
+- **Styling:** Tailwind CSS
+- **Routing:** React Router v6
+- **Data Source:** OMDb API
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/adityajais01/Cine-Search.git](https://github.com/adityajais01/Cine-Search.git)
+   cd Cine-Search

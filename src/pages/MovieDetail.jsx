@@ -15,9 +15,7 @@ const MovieDetail = () => {
       .then((data) => {
         setMovie(data);
       });
-  }, [id]); // Jab bhi id badlegi, yeh fetch dobara chalega
-
-  // 4. Jab tak API se data aa raha hai, tab tak loading screen dikhao
+  }, [id]); 
   if (!movie) {
     return (
       <div className="text-white text-center mt-20 text-xl font-semibold animate-pulse">
@@ -29,7 +27,7 @@ const MovieDetail = () => {
   return (
     <div className="max-w-4xl mx-auto mt-10 p-6 bg-zinc-900 border border-zinc-800 rounded-2xl shadow-2xl text-white">
       
-      {/* Wapas Home Page par jaane ke liye Link */}
+      
       <Link to="/" className="text-cyan-400 hover:text-cyan-300 font-semibold mb-6 inline-block transition duration-200">
         ← Back to Home
       </Link>
