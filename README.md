@@ -25,11 +25,5 @@ This platform delivers a seamless user experience wrapped in a clean, profession
 
 ---
 
-## 📦 Installation & Setup
-
-Follow these steps to run the project locally:
-
-1. **Clone the repository:**
-   ```bash
    git clone [https://github.com/adityajais01/Cine-Search.git](https://github.com/adityajais01/Cine-Search.git)
    cd Cine-Search
